@@ -1,4 +1,4 @@
-import React, { Component} from "react";
+import React, { PureComponent} from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Account from "./Account";
