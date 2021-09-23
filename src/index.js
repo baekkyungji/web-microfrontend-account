@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './config/reportWebVitals';
 import { unregister } from './config/registerServiceWorker';
 
-window.renderAdmin = (containerId, history) => {
+window.renderAccount = (containerId, history) => {
   ReactDOM.render(
     <App history={history} />,
     document.getElementById(containerId),
